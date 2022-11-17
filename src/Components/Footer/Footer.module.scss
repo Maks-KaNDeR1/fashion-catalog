@@ -1,0 +1,38 @@
+footer {
+    height: 200px;
+    margin-top: 310px;
+
+    background: #141414;
+    position: relative;
+
+    .footer__title {
+        text-align: center;
+        height: 200px;
+        width: 100%;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        position: relative;
+        color: #FFF;
+
+        span {
+            position: absolute;
+            bottom: 20px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    footer {
+        margin-top: 120px;
+
+        .footer__title {
+            span {
+                left: 35%;
+            }
+        }
+    }
+}

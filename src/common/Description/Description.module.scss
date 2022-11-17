@@ -1,0 +1,57 @@
+.descriptionBLock {
+    width: 600px;
+    min-height: 340px;
+
+    h2 {
+        width: 520px;
+        margin: 86px 0 25px 0;
+        padding: 0;
+
+        height: 160px;
+        left: 988px;
+        top: 72px;
+
+        font-family: 'Orchidea Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 110%;
+    }
+
+    span {
+        width: 600px;
+        height: 150px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .descriptionBLock {
+        width: 325px;
+        min-height: 340px;
+        padding: 20px;
+
+        h2 {
+            width: 335px;
+            height: 61px;
+            margin-top: 20px;
+            
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        span {
+            width: 315px;
+            height: 178px;
+            
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+        }
+    }
+}

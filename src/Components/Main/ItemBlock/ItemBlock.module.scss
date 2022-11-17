@@ -1,0 +1,124 @@
+.itemBlock {
+    width: 1585px;
+    height: 995px;
+
+    .itemBlock__upper {
+        display: flex;
+        justify-content: space-between;
+        height: 530px;
+    }
+
+    .itemBlock__upper__img {
+        margin-top: 30px;
+        height: 506px;
+        width: 855px;
+        overflow: 'hidden';
+
+        img {
+            right: 0;
+            margin-top: -133px;
+            margin-left: -30px;
+            width: 1055px;
+            height: 705px;
+        }
+    }
+
+    .itemBlock__upper__imgr {
+        margin-top: 30px;
+        height: 476px;
+
+        img {
+            right: 0;
+            margin-top: -78px;
+            margin-left: -30px;
+            width: 900px;
+            height: 604px;
+        }
+    }
+
+    .itemBlock__bottom {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        height: 530px;
+        padding-left: 292px;
+
+        .itemBlock__bottom__img {
+            margin-top: 80px;
+            height: 450px;
+            overflow: 'hidden';
+
+            img {
+                right: 0;
+                margin-top: -133px;
+                z-index: -5;
+                width: 605px;
+                height: 885px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .itemBlock {
+        width: 375px;
+        height: 1500px;
+        .itemBlock__upper {
+            height: 780px;
+            width: 375px;
+            flex-direction: column;
+        }
+
+        .itemBlock__upper__img {
+            width: 375px;
+            height: 370px;
+
+            img {
+                margin-top: -43px;
+                margin-left: -63px;
+                width: 500px;
+                height: 380px;
+                object-fit: cover;
+            }
+        }
+
+        .itemBlock__upper__imgr {
+            overflow: 'hidden';
+            width: 375px;
+            height: 370px;
+
+            img {
+                margin-top: -43px;
+                margin-left: -153px;
+                width: 680px;
+                height: 420px;
+            }
+        }
+
+        .itemBlock__bottom {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            
+            width: 375px;
+            height: 766px;
+            padding: 0;
+
+            .itemBlock__bottom__img {
+                margin-top: 26px;
+                width: 375px;
+                height: 360px;
+
+                img {
+                    right: 0;
+                    margin-top: -43px;
+                    margin-left: -10px;
+                    z-index: -5;
+                    width: 405px;
+                    height: 585px;
+                }
+            }
+        }
+    }
+}
