@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/keep-kalm/static/css/main.a62da9d2.css",
-    "main.js": "/keep-kalm/static/js/main.91bcfe60.js",
+    "main.css": "/keep-kalm/static/css/main.43826c3e.css",
+    "main.js": "/keep-kalm/static/js/main.51302c82.js",
     "static/js/787.9eabb17a.chunk.js": "/keep-kalm/static/js/787.9eabb17a.chunk.js",
     "static/media/22.png": "/keep-kalm/static/media/22.8182336ac4bdb2053d96.png",
     "static/media/16.png": "/keep-kalm/static/media/16.aa92107db44d41cf2dd6.png",
@@ -22,12 +22,12 @@
     "static/media/logo.svg": "/keep-kalm/static/media/logo.cb36cd6ab7c8fb13e36d47d0d1a511b0.svg",
     "static/media/phone.svg": "/keep-kalm/static/media/phone.a6fbe17f3bba62929e3b15cfd6c54347.svg",
     "index.html": "/keep-kalm/index.html",
-    "main.a62da9d2.css.map": "/keep-kalm/static/css/main.a62da9d2.css.map",
-    "main.91bcfe60.js.map": "/keep-kalm/static/js/main.91bcfe60.js.map",
+    "main.43826c3e.css.map": "/keep-kalm/static/css/main.43826c3e.css.map",
+    "main.51302c82.js.map": "/keep-kalm/static/js/main.51302c82.js.map",
     "787.9eabb17a.chunk.js.map": "/keep-kalm/static/js/787.9eabb17a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a62da9d2.css",
-    "static/js/main.91bcfe60.js"
+    "static/css/main.43826c3e.css",
+    "static/js/main.51302c82.js"
   ]
 }
