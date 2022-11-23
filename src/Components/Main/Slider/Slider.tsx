@@ -44,6 +44,7 @@ export const Slider: React.FC<PropsType> = () => {
         <div className={s.horizontalSectionWrapper}  >
             <div className={s.animationTtriggers} >
                 <div className={s.triggerSection} ></div>
+                <div className={s.triggerSection} ></div>
             </div>
             <div className={s.viewport}>
                 <Title text='Lorem ipsum dolor sit amet' />
